@@ -1,0 +1,15 @@
+:root { color-scheme: light dark; --bg: #fff7f0; --fg: #2b1d14; --accent: #c2410c; --muted: #7c6a5d; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1d1511; --fg: #f6ece4; --accent: #fb923c; --muted: #b8a597; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.5 system-ui, sans-serif; }
+main { max-width: 28rem; margin: 0 auto; padding: 15vh 16px 32px; text-align: center; }
+.box { font-size: 72px; }
+h1 { font-size: 1.6rem; margin: 0.5rem 0; }
+p { color: var(--muted); }
+.button { display: inline-block; margin: 1rem 0 0.5rem; padding: 0.8rem 1.6rem; border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; }
+.link { display: block; color: var(--accent); }
+.note { color: var(--accent); }
+main.text { text-align: left; padding-top: 32px; }
+main.text h2 { font-size: 1.1rem; margin: 1.5rem 0 0.25rem; }
+main.text p { color: var(--fg); margin: 0; }
+footer { text-align: center; padding: 16px; }
+main.text a.inline { color: var(--accent); }
